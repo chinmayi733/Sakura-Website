@@ -1,0 +1,104 @@
+/*  body section--*/
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg.jpg);
+	background-size:cover;
+	height:100vh;
+	background-position: center;
+
+}
+
+span
+{
+	color:pink;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+/*-----------------navbar-----------*/
+
+.navbar
+{
+	background-color: #05c9b7a1;
+}
+
+.navbar-brand
+{
+	color:black !important;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+	font-size: 170%;
+}
+
+.navbar-nav a
+{
+	color:black!important;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.navbar-nav a:hover
+{
+	color:pink!important;
+}
+
+
+/*------------------------------home section-----------------------*/
+
+
+.Jumbotron
+{
+	position: relative;
+	top:20%;
+	background-color: #05c9b7a1;
+	color:white!important;
+	width:80%;
+	height:auto;
+	text-align: center;
+	margin-left: 10%;
+
+}
+
+
+.container-fluid
+{
+	
+	height:auto;
+}
+
+.container h4
+{
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	font-weight: bold;
+	font-size: 170%;
+}
+
+
+.col img
+{
+	width:20%;
+	height:20%;
+	position: relative;
+	background-color: black;
+	border:0.5em solid black;
+	border-radius: 50%;
+}
+
+.col span
+{
+	color:black;
+	font-weight:bolder;
+}
+
+.Jumbotron p
+{
+	font-size: 130%;
+}
+
+
+
+
+
+
