@@ -1,10 +1,12 @@
 /*  body section--*/
 body
 {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg.jpg);
+	
+	background-color:white;
 	background-size:cover;
 	height:100vh;
 	background-position: center;
+	
 
 }
 
@@ -21,6 +23,7 @@ span
 .navbar
 {
 	background-color: #05c9b7a1;
+	
 }
 
 .navbar-brand
@@ -41,22 +44,43 @@ span
 .navbar-nav a:hover
 {
 	color:pink!important;
+	background-color: black!important;
+}
+
+ a:active
+{
+	background-color: black!important;
+	color:pink!important;
 }
 
 
 /*------------------------------home section-----------------------*/
 
+.main
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/bg.jpg);
+	background-size:cover;
+	top:10%;
+	position: relative;
+
+	
+
+
+}
+
 
 .Jumbotron
 {
-	position: relative;
-	top:20%;
+	
+	top:25%;
 	background-color: #05c9b7a1;
 	color:white!important;
 	width:80%;
 	height:auto;
 	text-align: center;
-	margin-left: 10%;
+	margin-left:10%;
+
+	
 
 }
 
@@ -65,9 +89,10 @@ span
 {
 	
 	height:auto;
+	
 }
 
-.container h4
+.col h4
 {
 	font-family: 'Dancing Script', cursive;
 	color: black;
@@ -97,8 +122,85 @@ span
 	font-size: 130%;
 }
 
+/*----------home end-----*/
 
 
+/*------------------about jlpt--------*/
+.Jumbotron2
+{
 
+top:15%;
+width:80%;
+position: relative;
+margin-left: 10%
+}
+
+/*---------------jlpt end-------------*/
+
+/*-------------------Instructor--------------------------*/
+.Jumbotron1
+{
+	position:relative;
+	top:27%;
+}
+
+.tag
+{
+	background-color:#05c9b7a1;
+    color:black;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.arrow
+{
+	width:10%;
+	height:10%;
+}
+
+.inner2 
+{
+	background-color: pink;
+	border:3px solid #05c9b7a1 ;
+	
+}
+
+.inner2 h4
+{
+  font-weight:bold;
+  color:black;
+ 
+}
+
+.inner1 img
+{
+	width:20%;
+	height:20%;
+	position: relative;
+	border:9px solid black;
+	border-radius:20%;
+	margin-top:3%;
+	margin-left:24%;
+}
+
+
+.inner2 ul
+{
+	list-style-type:square;
+}
+
+
+/*------------------------instructor end---------------------------*/
+
+
+/*end*/
+
+html
+{
+	overflow-x: hidden;
+	
+}
 
 
